@@ -7,6 +7,9 @@ export default {
     extend: {
       fontFamily: {
         'playfair': ['Playfair Display', 'serif'],
+      },
+      backgroundImage: {
+        homeImg: "url('/background-home.png')"
       }
     },
   },

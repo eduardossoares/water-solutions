@@ -15,10 +15,10 @@ export default function Home() {
     return (
         <div className="">
 
-            <section className="h-screen flex items-center 
+            <section id="home" className="h-screen flex items-center 
             bg-homeImg bg-cover bg-center bg-no-repeat">
                 <Container>
-                    <div className="flex flex-col gap-y-5 md:w-[50%] px-4 max-lg:text-center">
+                    <div className="flex flex-col gap-y-5 md:w-[65%] px-4 max-lg:text-center">
                         <h1 className="text-4xl font-light">
                             <span className="font-semibold">Água Limpa para Todos: </span>
                             Um Compromisso da {" "}
@@ -42,7 +42,7 @@ export default function Home() {
                 </Container>
             </section>
 
-            <section className="h-[calc(100vh-200px)] flex items-center 
+            <section id="about" className="h-[calc(100vh-200px)] flex items-center 
             bg-white border-y-2 border-zinc-300">
                 <Container>
 
@@ -105,7 +105,7 @@ export default function Home() {
                 </Container>
             </section>
 
-            <section className="h-[calc(100vh-200px)] flex items-center 
+            <section id="products" className="h-[calc(100vh-200px)] flex items-center 
             bg-homeImg bg-cover bg-center bg-no-repeat">
                 <Container>
                     <div className="space-y-4">
@@ -131,7 +131,7 @@ export default function Home() {
                 </Container>
             </section>
 
-            <section className="h-[calc(100vh-300px)] justify-center flex items-center bg-white
+            <section id="contact" className="h-[calc(100vh-300px)] justify-center flex items-center bg-white
             flex-col border-y-2 border-zinc-300">
                 <Container>
                     <div className="flex flex-col space-y-5">

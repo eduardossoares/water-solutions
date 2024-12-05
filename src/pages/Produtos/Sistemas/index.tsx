@@ -1,8 +1,14 @@
+import { useEffect } from "react";
 import Container from "../../../components/Container";
 
 import { FaShoppingCart } from "react-icons/fa";
 
 export default function Sistemas() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <section className="h-screen flex items-center 
             bg-white border-y-2 border-zinc-300">
@@ -48,11 +54,11 @@ export default function Sistemas() {
                             <h3 className="text-2xl font-semibold">Material Utilizado:</h3>
 
                             <ul className="space-y-4">
-                                <li>- <em>Calhas: Alumínio, PVC ou aço galvanizado para captar a água da chuva</em></li>
-                                <li>- <em>Condutores: Tubos de PVC ou materiais resistentes para transportar a água até o reservatório. </em></li>
-                                <li>- <em>Filtro: Polietileno ou aço inoxidável para remover impurezas da água. </em></li>
-                                <li>- <em>Reservatório: Tanques de plástico, fibra de vidro, concreto ou metal para armazenamento seguro. </em></li>
-                                <li>- <em>Bomba: Submersíveis ou periféricas para transferir a água para pontos de distribuição.</em></li>
+                                <li><strong>- Calhas: </strong>Alumínio, PVC ou aço galvanizado para captar a água da chuva.</li>
+                                <li><strong>- Condutores: </strong>Tubos de PVC ou materiais resistentes para transportar a água até o reservatório.</li>
+                                <li><strong>- Filtro: </strong>Polietileno ou aço inoxidável para remover impurezas da água.</li>
+                                <li><strong>- Reservatório: </strong>Tanques de plástico, fibra de vidro, concreto ou metal para armazenamento seguro. </li>
+                                <li><strong>- Bomba: </strong>Submersíveis ou periféricas para transferir a água para pontos de distribuição.</li>
                             </ul>
                         </div>
 

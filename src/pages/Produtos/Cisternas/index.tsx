@@ -1,8 +1,14 @@
+import { useEffect } from "react";
 import Container from "../../../components/Container";
 
 import { FaShoppingCart } from "react-icons/fa";
 
 export default function Cisternas() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <section className="h-screen flex items-center 
             bg-white border-y-2 border-zinc-300">
@@ -38,11 +44,11 @@ export default function Cisternas() {
                             <h3 className="text-2xl font-semibold">Material Utilizado:</h3>
 
                             <ul className="space-y-4">
-                                <li>- <em>Alvenaria, plástico ou fibra de vidro, definidos de acordo com a durabilidade e o orçamento.</em></li>
-                                <li>- <em>Sistema de Captação: Telhados ou outras superfícies com calhas direcionadas para o reservatório.</em></li>
-                                <li>- <em>Tampa Vedante: Para evitar a contaminação e o acesso de insetos.</em></li>
-                                <li>- <em>Bomba d’Água: Em casos onde é necessário transporte para pontos de uso.</em></li>
-                                <li>- <em>Sistema de Saída: Torneiras ou pontos de distribuição para fácil acesso à água armazenada.</em></li>
+                                <li> <strong> - Alvenaria:</strong> Plástico ou fibra de vidro, definidos de acordo com a durabilidade e o orçamento.</li>
+                                <li> <strong> - Sistema de Captação: </strong>Sistema de Captação: Telhados ou outras superfícies com calhas direcionadas para o reservatório.</li>
+                                <li> <strong> - Tampa Vedante: </strong>Tampa Vedante: Para evitar a contaminação e o acesso de insetos.</li>
+                                <li> <strong> - Bomba d’Água: </strong>Bomba d’Água: Em casos onde é necessário transporte para pontos de uso.</li>
+                                <li>  <strong> - Sistema de Saída: </strong> Torneiras ou pontos de distribuição para fácil acesso à água armazenada.</li>
                             </ul>
                         </div>
 

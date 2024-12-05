@@ -1,8 +1,14 @@
+import { useEffect } from "react";
 import Container from "../../../components/Container";
 
 import { FaShoppingCart } from "react-icons/fa";
 
 export default function Caminhoes() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <section className="h-screen flex items-center 
             bg-white border-y-2 border-zinc-300">
